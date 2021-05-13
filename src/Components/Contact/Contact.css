@@ -1,0 +1,39 @@
+.home-form input:focus, .home-form textarea:focus{
+    background-color: transparent;
+    color: thistle;
+    border: 1px solid thistle;
+}
+.home-form input, .home-form textarea{
+    background-color: transparent;
+    outline: blueviolet;
+    border: 1px solid blueviolet;
+    /* padding: 0 205px;
+    margin: 30px 0 0 0; */
+}
+.home-form{
+    margin-top: 30px;
+    /* height: 495px; */
+    
+}
+@media (max-width: 769px){
+    .home-form{
+        height: fit-content !important;
+        padding: 0 !important;
+    }
+    .contact p{
+        text-align: center;
+    }
+}
+.contact p{
+    color: thistle;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.home-form input::-webkit-input-placeholder, .home-form textarea::-webkit-input-placeholder{
+    color: thistle;
+}
+
+.s-link .social-link{
+    font-size: 25px;
+    margin: 0 12px;
+}

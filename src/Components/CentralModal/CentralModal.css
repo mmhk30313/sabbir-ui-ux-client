@@ -1,0 +1,10 @@
+.modal-img{
+    width: 300px;
+    height: 300px;
+}
+
+@media(max-width: 769px){
+    .modal-img{
+        height: 230px;
+    }
+}

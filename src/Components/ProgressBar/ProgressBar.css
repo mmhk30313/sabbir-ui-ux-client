@@ -1,0 +1,10 @@
+.progress-bar{
+    background-color: #9a4dce !important;
+    animation: progress 1.5s forwards;
+}
+
+@keyframes progress{
+    from{
+        width: 0;
+    }
+}

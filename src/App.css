@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@600&family=Passion+One&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  padding: 50px 0 0 0;
+  text-align: center;
+  font-weight: 900;
+  /* font-family: 'Rajdhani', sans-serif; */
+  font-family: 'Goblin One', cursive;
+  font-family: 'Hind Guntur', sans-serif;
+}
+.des{
+  overflow: scroll;
+  height: 200px;
+  width: 75%;
+  
+}
+body::-webkit-scrollbar, .des::-webkit-scrollbar{
+  display: none;
+}
+.App {
+  background-color: #000000 !important;
+}
+.sidebar-mobile {
+  height: 100%;
+  /* width: 0; */
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.8s;
+  padding-top: 60px;
+}
+/* .top-desktop{ */
+  /* padding: 10px; */
+  /* margin-left: 250px; */
+/* } */
+/* .my-link a {
+  padding: 8px 8px 8px 32px;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  
+} */
+/* .my-link a:focus{
+  border-bottom: 2px solid palevioletred !important;
+} */
+.nav-link a{
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+.nav-link a:hover
+{
+  /* background-color: rgb(124, 105, 105); */
+  color: #ffe284 !important;
+  text-decoration: underline palevioletred !important;
+}
+
+#name2{
+  display: none;
+}
+.sidebar-mobile{
+  display: none;
+}
+/* #topBar{
+  /* border-bottom: 0.1px solid rgb(150, 149, 149);
+} */
+#main-mobile, #topBar {
+  transition: margin-left 0.8s;
+  /* padding: 10px; */
+  display: none;
+}
+#contact-mobile{
+  display: none !important;
+}
+
+.card{
+  cursor: pointer;
+}
+
+@media (max-width: 769px){
+  .header{
+    padding: auto !important;
+  }
+  .main-div{
+    margin: 0 0 0 0 !important;
+    padding: 0 auto!important;
+  }
+  #main-mobile{
+    display: block;
+    /* padding: 10px; */
+    margin-left: 200px;
+    /* margin-top: 160px; */
+    margin-left: 0;
+  }
+  .top-desktop, #main-desktop, #contact-desktop, .scroll-down, .scroll-up{
+    display: none !important;
+  }
+  #contact-mobile{
+    display: block !important;
+  }
+  .sidebar-mobile{
+    width: 0;
+    display: block;
+  }
+  #topBar{
+    display: block;
+    margin: 0 0;
+    padding: 10px 0;
+  }
+  .nav-link a{
+    font-size: 20px;
+  }
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar-mobile {padding-top: 15px;}
+  .sidebar-mobile a {font-size: 18px;}
+}
+
+
+.scroll-down, .scroll-up{
+  height: 45px;
+  width: 25px;
+  border: 2px solid #9A4DCE !important;
+  /* color: #9A4DCE !important; */
+  position: absolute;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.scroll-down{
+  left: 50%;
+  bottom: 20px;
+}
+.scroll-up{
+  left: 50%;
+  bottom: 32px;
+}
+.scroll-down::before,
+.scroll-down::after, .scroll-up::before, .scroll-up::after {
+  content: "";
+  position: absolute;
+  left: 49%;
+  height: 11px;
+  width: 11px;
+  transform: translate(-50%, -100%) rotate(45deg);
+}
+.scroll-down::before, .scroll-down::after{
+  top: 30%;
+  border: 2px solid #9A4DCE !important;
+  border-top: transparent !important;
+  border-left: transparent !important;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-up::before, .scroll-up::after{
+  bottom: 30%;
+  border: 2px solid #9A4DCE !important;
+  border-bottom: transparent !important;
+  border-right: transparent !important;
+  animation: scroll-up 1.5s ease-in-out infinite;
+
+}
+
+.scroll-down::before {
+  top: 45%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+.scroll-up::before{
+  bottom: 10%;
+  animation-delay: 0.3s;
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+@keyframes scroll-up {
+  0% {
+    /* top:20%; */
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 0;
+  }
+  100% {
+    top: 90%;
+    opacity: 1;
+  }
+}

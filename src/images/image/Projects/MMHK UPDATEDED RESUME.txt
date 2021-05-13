@@ -1,0 +1,135 @@
+﻿Md. Mehedi Hasan Khan
+MERN Stack Developer
+Address: Dhaka, Bangladesh
+Phone: (+88) 01521108858
+Email: dhrubo9250@gmail.com
+Github: https://github.com/mmhk30313
+LinkedIn: www.linkedin.com/in/mmhk-info
+Portfolio: https://mehedi-info.web.app
+
+
+	                                 
+	________________
+
+
+
+
+Summary                 Proficient : Javascript, ES6, ReactJS, BootStrap4, HTML5, CSS3, C++
+Comfortable : NodeJS, ExpressJS, REST-API, MongoDB, Firebase
+Concepts : Problem Solving, Data Structure, Algorithm, OOP
+
+
+________________
+
+
+Career        Objectives        To obtain a challenging position in a high-quality software engineering
+                                   circle and to build up a successful career in a dynamic and professional
+environment of any reputable company or institution through aptitude, hard work, dedication and determination.
+
+
+________________
+
+
+
+
+Skills                        Programming Languages : Proficient in JavaScript, ES6 and C++ 
+Web Technologies : HTML5, CSS3
+Frameworks : ReactJS, NodeJS, Bootstrap4, Material UI
+Database : MongoDB, MySql
+Familiar : NextJS,React Native, TS, ReduxJS, Python, Java
+Tools : Git, Heroku, Netlify, VS Code, Chrome Dev Tool,CodeBlocks
+
+
+________________
+
+
+
+
+Projects                 1. Travel Solution [Client - Server] : A responsive & dynamic website
+for online travel management.
+
+
+● Authenticated users can order and check services.
+● Automated calculation and functionalities are added for the cart.
+● Stripe payment method is available for testing purposes only.
+● Authenticated admin can add new services and new admin also.
+● Admin can change order’s status to notify the clients about progress.
+● Technology : Reactjs, Bootstrap, Nodejs, MongoDB, Firebase.
+
+
+Live-Website        Client-Code        Server-Code
+2. Book Life [Client - Server] : A website for a publication company with responsive UI.
+
+
+● Users can order and check books.
+● In user order place page, user can increase / decrease book
+● Authenticated admin can add new book and new admin also.
+● It’s look like an online delivery system
+● Admin can manage books status to notify the clients about progress.
+●Technology : Reactjs, Bootstrap, Nodejs, MongoDB, Firebase.
+
+
+Live-Website        Client-Code        Server-Code
+
+
+2. Creative Agency [Client - Server] : A website for a software agency with responsive UI.
+
+
+● Users can order and check services.
+● Authenticated admin can add new services and new admin also.
+● Admin can change order’s status to notify the clients about progress.
+Technology : Reactjs, Bootstrap, Nodejs, MongoDB, Firebase.
+
+
+Live-Website        Client-Code        Server-Code
+
+
+3. Volunteer Network [Client - Server] : A volunteer management website.
+
+
+● Users can apply for any social work as a volunteer.
+● Admin control panel is available with authentication.
+● Admin can add or delete events, modify the volunteer list.
+Technology : Reactjs, Bootstrap, Nodejs, MongoDB, Firebase.
+
+
+Live-Website        Client-Code        Server-Code
+
+
+4. Travel Guru [Client] : A website for travelers.
+
+
+● Authenticated users can choose a place.
+● Getting hotels for booking by providing dates
+● Google map was included.
+Technology : Reactjs, Bootstrap, Firebase-auth (email/password, google, fb),Google map API.
+
+
+Live-Website        Client-Code
+
+
+
+
+________________
+
+
+
+
+Education                 Mawlana Bhashani Science & Technology University, Shantosh, Tangail
+B.Sc. in Computer Science & Engineering | 2016-Present
+Current CGPA: 3.44/4
+
+
+Higher Secondary School Certificate / Equivalent - 2014
+Govt. Science College, Tejgaon, Dhaka
+Group : Science
+
+
+Secondary School Certificate / Equivalent  - 2012
+UBIKM, Gulshan, Dhaka - 1212
+Group : Science
+
+
+
+
+________________

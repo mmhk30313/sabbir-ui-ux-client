@@ -1,0 +1,95 @@
+.main-div{
+    padding: 65px 0 25px 0;
+}
+
+.about-icons{
+    width: fit-content;
+    padding:  7.5px 15px 15px 15px;
+    background-color: #9a4dce;
+    color: white;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font-weight: 900;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+}
+.brand-color{
+    color: #9a4dce;
+}
+.skills-title{
+    /* font-family: Garamond, serif; */
+    font-family: 'Hind Guntur', sans-serif;
+    font-size: 26px;
+}
+.about-des{
+    /* font-family: 'Courier New', monospace; */
+    font-family: Garamond, serif;
+    font-size: 20px;
+    /* text-align: justify; */
+    color: thistle;
+    /* font-weight: lighter !important; */
+}
+/* .progress-bar{
+    background-color: rgb(154, 77, 206) !important;
+    animation: progress 1.5s forwards;
+}
+@keyframes progress{
+    from{
+        width: 0;
+    }
+} */
+/* .responsive, .fast, .dynamic{
+    height: 235px;
+    overflow: scroll;
+}
+.responsive::-webkit-scrollbar, .fast::-webkit-scrollbar, .dynamic::-webkit-scrollbar{
+    display: none;
+} */
+/* .about-des{
+    height: 80px;
+    overflow: scroll;
+} */
+/* .about-des::-webkit-scrollbar{
+    display: none;
+} */
+.about-experience .card .title{
+    font-family: Garamond, serif;
+    font-size: 28px;
+}
+@media (max-width: 769px){
+    .header, .skills-title,.about-experience{
+        text-align: center;
+    }
+    .about-experience .card, .skills .card{
+        padding: 15px 0 0 0;
+        border-bottom: 1px solid grey;
+    }
+    .about-icons{
+        margin: 0 auto;
+
+    }
+    .skills-title{
+        margin-top: 35px;
+
+    }
+    .tools{
+        margin-top: 20px;
+        text-align: center;
+        font-weight: 900;
+    }
+}
+
+/* Tools & Technologies */
+
+@keyframes blinkingText{
+	0%{		color: thistle;	opacity: 0.4;}
+	/* 49%{	color: transparent;border: transparent;	} */
+	50%{	color: transparent; border-opacity: 0.5;	}
+	/* 99%{	color:transparent;border: transparent;	} */
+	100%{	color: thistle;	opacity: 1;}
+}
+.text-cloud{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 17px;
+}

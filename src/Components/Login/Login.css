@@ -1,0 +1,15 @@
+.login{
+    background-color: #F8F9FA;
+    height: 100vh;
+    padding: 120px 0;
+}
+.login-field{
+    width: 550px;
+    margin: 50px auto;
+}
+
+@media(max-width: 769px){
+    .login-field{
+        width: fit-content !important;
+    }
+}

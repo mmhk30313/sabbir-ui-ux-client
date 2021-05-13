@@ -1,0 +1,172 @@
+.projects .btn{
+    overflow: hidden;
+    color: rgb(154, 77, 206);
+    background-color: transparent;
+}
+
+.mirror-1, .mirror-2{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    color: aliceblue;
+    background-color: rgb(154, 77, 206);
+    transition: all 0.5s ease-in-out;
+}
+.mirror-1{
+    bottom: 0;
+    transform: translate(0, 100%);
+}
+.mirror-2{
+    top: 0;
+    transform: translate(0, -100%);
+}
+/* .btn:hover .mirror-1, .btn:hover .mirror-2{
+    padding: 5px;
+    /* color: aliceblue;
+    /* transform: rotate(0, 0);
+    transform: translate(0, 0);
+} */
+.projects .btn:hover{
+    color: aliceblue;
+    /* background-color: rgb(154, 77, 206); */
+}
+.active-everything, .active-react-node, .active-javascript, .active-html-css{
+    transition: all 1s ease-in-out !important;
+    color: aliceblue !important;
+    background-color: rgb(154, 77, 206) !important;
+}
+
+#mobile-items{
+    display: none;
+}
+
+@media (max-width: 769px){  
+    #project-type{
+        width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .projects .header{
+        padding: 30px 0 0 0 !important;
+    }
+    .projects .btn{
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
+    #mobile-items{
+        display: block;
+    }
+    #desktop-items{
+        display: none;
+    }
+}
+
+.fading-up {
+    opacity: 0;
+    animation: fadeUp 0.8s both;
+    /* -webkit-animation-name: fadeInUp; */
+}
+
+@keyframes fadeUp {
+    from {
+        transform: translate3d(0,200px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.fading-left {
+    opacity: 0;
+    animation: fadeLeft 0.8s both;
+    /* -webkit-animation-name: fadeInUp; */
+}
+
+@keyframes fadeLeft {
+    0% {
+        transform: translate3d(200px,0,0)
+    }
+
+    100% {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.zoom-in {
+    /* transition: transform 30s linear; */
+    animation: zoomIn 0.8s ease-in-out;
+  }
+  @keyframes zoomIn {
+    0%{
+        transform: scale(0.5) rotate(0deg);
+    }
+    100%{
+        transform: scale(1.002) rotate(0.1deg);
+    }
+ }
+
+.flip-down{
+    animation: flipDown 0.8s ease-in-out;
+}
+
+@keyframes flipDown {
+    0%{
+        transform: rotateX(20deg);
+    }
+    50%{
+        transform: rotateX(80deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+}
+
+.flip-right{
+    animation: flipRight .7s ease-in-out;
+}
+
+@keyframes flipRight {
+    0%{
+        transform: rotateY(0deg);
+    }
+    50%{
+        transform: rotateY(90deg);
+    }
+    100%{
+        transform: rotateY(0deg);
+    }
+}
+
+.project-card, .blog-card{
+    border: none;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+}
+
+.learn-more, .read, .on-going{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.on-going{
+    background-color: #9a4bceda;
+}
+
+.read, .learn-more{
+    transform: translate(0, 100%);
+    background-color: #994bcead;
+}
+
+.project-card:hover .learn-more, .blog-card:hover .read{
+    transform: translate(0, 0);
+}

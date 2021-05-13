@@ -1,0 +1,35 @@
+.all-section{
+    overflow: hidden;
+}
+.bg-close{
+    min-height: 100%;
+    background-color: rgba(20, 20, 20, 0.274);
+}
+
+.social-link{
+    transition: 0.2s;
+    color: white !important;
+    /* background: #000; */
+}
+.social-link:hover{
+    /* transition: 0.5s; */
+    color: rgb(64, 150, 248) !important;
+    /* background: #000; */
+}
+@media (max-width: 769px){
+    .social-link{
+        width: 20px !important;
+    }
+}
+#sideBar-mobile, #main-mobile, #topBar{
+    transition: 0.8s !important;
+}
+#sideBar-mobile{
+    width: 200px;
+    transform: translateX(-200px) ;
+}
+
+.name-side, .footer-des{
+    font-weight: 900;
+    font-family: 'Rajdhani', sans-serif;
+}
